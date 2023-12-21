@@ -1,0 +1,60 @@
+/* div{
+    background-color: rgb(221, 14, 14);
+    border: 13px solid black;
+    padding: 0px 0px 0px 40%;
+    outline: 15px solid rgb(246, 244, 120);
+} */
+/* 
+Display : block =>{
+    - Take Full width if not preciser width
+    - Add Line Break (br)
+    - Respect padding,margin,width,height 
+
+Display : inline =>{
+    - Dont Add Line Break
+    - Don't respect width,height
+    - Respect margin and padding [just left and right]
+
+Display : inline-block =>{
+    - Dont Add Line Break
+    - Respect padding,margin,width,height 
+    - Allow Element before and after it
+
+    */
+
+/* img{
+    float: left;
+    margin-right: 15px;
+}
+.cc{
+    color: rgb(0, 73, 128);
+    font-style: italic;
+    text-indent: 25px;
+}
+ */
+ul{
+    list-style: none;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: right;
+    display: inline;
+}
+li a{
+    display: inline-block;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+
+}
+li a:hover {
+    background-color: #d60808;
+  }
+  
+.one {
+    background-color:rgb(165, 18, 67);
+  }

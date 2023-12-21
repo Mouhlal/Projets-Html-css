@@ -1,0 +1,80 @@
+.header:hover{
+    cursor: pointer;
+}
+
+.v{
+    position: absolute;
+    background-color: rgb(78, 72, 83);
+    border-radius: 5px;
+}
+#title{
+    position: relative;
+    background-color: black;
+    color: rgb(255, 240, 240);
+    bottom: 23px; 
+    text-align: center;
+    opacity: 0.7;
+}
+.po{
+    border-radius: 6px;
+}
+
+.c{
+    position: absolute;
+    background-color: rgb(78, 72, 83);
+    border-radius: 5px;
+    left: 25%;
+}
+
+.p3{
+    position: absolute;
+    background-color: rgb(78, 72, 83);
+    border-radius: 5px;
+    left: 50%;
+}
+
+.p4{
+    position: absolute;
+    background-color: rgb(78, 72, 83);
+    border-radius: 5px;
+    left: 75%;
+}
+
+.p5{
+    position: absolute;
+    background-color: rgb(78, 72, 83);
+    border-radius: 5px;
+    left: 100%;
+}
+
+.p6{
+    position: absolute;
+    background-color: rgb(78, 72, 83);
+    border-radius: 5px;
+    bottom: 20px;
+}
+
+.p7{
+    position: absolute;
+    background-color: rgb(78, 72, 83);
+    border-radius: 5px;
+    bottom: 20px;
+    left: 25%;
+}
+
+.p8{
+    position: absolute;
+    background-color: rgb(78, 72, 83);
+    border-radius: 5px;
+    bottom: 20px;
+    left: 50%;
+}
+
+.p9{
+    position: absolute;
+    background-color: rgb(78, 72, 83);
+    border-radius: 5px;
+    bottom: 20px;
+    left: 75%; 
+}
+
