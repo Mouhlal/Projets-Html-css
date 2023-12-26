@@ -85,3 +85,9 @@ body{
     font-size: large;
     cursor: pointer;
 }
+@media (max-width:775px){
+    .home{
+        display: flex;
+        flex-direction: column;
+    }
+}
