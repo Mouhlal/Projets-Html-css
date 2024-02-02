@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#161515;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+img{
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    width: 150px;
+}
+.container{
+    background-color: #212020;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    width: 400px;
+    height: 640px;
+    margin: 80px;
+    text-align: center;
+    position: relative;
+    left: 380px;
+}
+
+.head{
+    padding: 24px;
+    color: aliceblue;
+}
+#pays{
+    color: yellowgreen;
+    position: relative;
+    bottom: 11px;
+}
+.body-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+}
+button{
+    width: 66%;
+    background-color: rgb(47, 46, 46);
+    color: aliceblue;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 13px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(247, 247, 247);
+    color: #161515;
+}
+
+
+
+@media (max-width: 955px) {
+    .container {
+        width: 360px;
+        height: 610px;
+        margin: 76px auto;
+        position: relative;
+        left: 0;
+    }
+}
