@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script>
+   function btn(){
+    let d=1
+    let click = document.getElementById('click')
+    let img = document.getElementById('img')
+    let count = document.getElementById('pr')
+    if(img.src.match("../imgs/754d7b29-35d9-4379-9064-fbfe63f3c4b4.jpeg")){
+      img.src = "../imgs/box.jpeg"
+      click.innerHTML = "photo a"
+
+    }else{
+       img.src = "../imgs/754d7b29-35d9-4379-9064-fbfe63f3c4b4.jpeg"
+       click.innerHTML = "photo b"
+    }
+    count.innerHTML = d++
+
+   }
+  </script>
+  <body>
+    
+   
+
+   
+
+    <img id="img" src="../imgs/754d7b29-35d9-4379-9064-fbfe63f3c4b4.jpeg" width="140px" alt="">
+
+    <p id="pr">0</p>
+
+<!--     <button   onclick="document.getElementById('img').src = '../imgs/box.jpeg';">Changer l'image</button>
+ -->   
+<button id="click" onclick="btn()">Changer l'image</button>
+   
+  </body>
+</html>
